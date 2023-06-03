@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <ul>
+          <li>
+            <img src="assets/images/logo.png" alt="dumbways_logo" />
+          </li>
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+          <li>
+            <a class="active" href="blog.html">MY PROJECT</a>
+          </li>
+        </li>
+        <l class="item-collapse">
+            <a href="testimonials.html">MY TESTIMONIALS</a>
+
+        </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </nav>
+
+    <div class="blog">
+      <div class="blog-form">
+        <div class="form-container">
+          <form onsubmit="addBlog(event)">
+            <h1>ADD MY PROJECT</h1>
+            <div>
+              <label for="input-blog-title">Title</label>
+              <input type="text" id="input-blog-title" />
+            </div>
+            <div class="input-date">
+              <div>
+                <label for="startdate">Start Date</label>
+                <input id="startdate" type="date" />
+              </div>
+              <div>
+                <label for="enddate">End Date</label>
+                <input id="enddate" type="date">
+              </div>
+            </div>
+            <div>
+              <label for="input-blog-content">Content</label>
+              <textarea id="input-blog-content"></textarea>
+            </div>
+            <div>
+              <label>Assets used</label>
+              <div class="input-label">
+                <div>
+                  <input id="html" type="checkbox" /><label for="html">HTML</label>
+                </div>
+                <div>
+                  <input id="css" type="checkbox" /><label for="css">CSS</label>
+                </div>
+                <div>
+                  <input id="js" type="checkbox" /><label for="js">JavaScript</label>
+                </div>
+                <div>
+                  <input id="image" type="checkbox" /><label for="image">Image</label>
+                </div>
+              </div>
+            </div>
+            <div>
+              <label>Upload Image</label>
+              <div class="input-blog-image-group">
+                <label for="input-blog-image">
+                  <p>attach files</p>
+                  <img src="assets/images/file.png" alt="file" />
+                </label>
+                <input type="file" id="input-blog-image" hidden />
+              </div>
+            </div>
+            <div class="button-group">
+              <button>Post Blog</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <hr class="line" />
+
+      <div id="contents" class="blog-list">
+        <div class="blog-list-item">
+          <div class="blog-image">
+            <img src="assets/images/meimei.jpg" alt="blog_img" />
+          </div>
+          <div class="blog-content">
+            <div class="btn-group">
+              <button class="btn-edit">Edit Post</button>
+              <button class="btn-delete">Delete Post</button>
+            </div>
+            <h1>
+              <a href="blog-detail.html" target="_blank"
+                >INI PROJECT SAYA TAUUU</a
+              >
+            </h1>
+            <div class="detail-blog-content">
+              12 Jul 2021 22:30 WIB | Ichsan Emrald Alamsyah
+            </div>
+            <p>
+              Mei Mei Yap Ee Jan (musim 1-3) Yuki Tang Ying Sowk (musim 3-) yang bernama
+               lengkap Xiao Mei Mei adalah salah satu dari kawan Upin dan Ipin. Mei Mei merupakan keturunan Tionghoa, dan beragama Konghucu. Walau begitu, Mei Mei tetap menasihati kawannya agar berpuasa. Dia bertutur kata yang sopan. Mei Mei juga sahabat bersama Devi dan Susanti. Mei Mei adalah seorang terpintar di kelas. Dia memakai kacamata besar ada masalah mata karena membaca buku terlalu dekat sampai larut malam. Mei Mei memiliki paras wajah yang imut. Jika Mei Mei sekolah di TK Kasih Sayang (Tadika Mesra), dia sebangku dengan Mail dan bercita-cita menjadi guru. Mei Mei juga cenderung sering 
+              mengulang dua kata menjadi dua kali dalam satu kalimat, khususnya Saya Suka, Saya Suka.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/blog.js"></script>
+  </body>
+</html>

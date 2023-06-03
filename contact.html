@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>contact me</title>
+        <link rel="stylesheet" href="css/contact.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <img src="assets/images/logo.png" alt="dumbways_logo"/>
+                    </li>
+                    <li>
+                        <a class="actives" href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">MY PROJECT</a>
+                    </li>
+                    <li>
+                        <a href="testimonials.html">MY TESTIMONIALS</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="contact.html">CONTACT</a>
+            </div>
+        </nav>
+        <form>
+            <div>
+                <label for="input-name">Name</label>
+                <input id="input-name" height="100" type="text" required>
+            </div>
+                   
+      
+            <div>
+                <label for="input-email">Email</label>
+                <input id="input-email" type="email" required />
+            </div>
+            
+            <div>
+                <label for="input-phone">Phone number</label>
+                <input id="input-phone" type="number" required />
+            </div>
+
+            <div>
+
+                <label for="input-status">Status</label>
+                <select id="input-status">
+                    <option value="" hidden>Select</option>
+                    <option>janda</option>
+                    <option>lg nikah</option>
+                    <option>gadis / bujang</option>
+            </select>
+            </div>
+            
+            <div>
+            <label for="input-message">Your message</label>
+            <textarea id="input-message" rows="5" cols="10"></textarea>
+            </div>
+
+            <div>
+                <button type="button" onclick="submitData()">SUBMIT</button>
+             </div>
+
+         </form>
+         <script src="js/contact.js"></script>
+</html>
