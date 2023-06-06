@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: lightyellow;
 }
 
@@ -25,14 +25,14 @@ body {
 .blog-form form input,
 textarea {
   width: 100%;
+  border-radius: 4px;
   font-size: 20px;
   font-weight: 400;
   padding: 8px;
   margin-top: 5px;
   margin-bottom: 20px;
   background: #f4f3f3;
-  border: 1px solid #c4c4c4;
-  border-radius: 8px;
+  border: 2px solid #c4c4c4;
   resize: none;
 }
 
@@ -103,6 +103,21 @@ textarea {
   display: flex;
   flex-direction: column;
 }
+  .input-date {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input-date input {
+    color: grey;
+  }
+  .input-date div {
+    width: 48%;
+  }
+  
+
+
+
 .input-label {
   display: flex;
   flex-wrap: wrap;
@@ -238,4 +253,7 @@ label {
 }
 .start-end-date div {
   width: 48%;
+} */
+.bg-black:hover {
+  background-color: gold !important;
 }

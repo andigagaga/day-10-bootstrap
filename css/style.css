@@ -5,7 +5,20 @@
     font-family: 'Poppins', sans-serif;
     color: black;
 }
-.nav-left {
+.bg-black:hover {
+    background-color: goldenrod !important;
+}
+.fa-brands:hover {
+    background-color: grey !important;
+}
+.fw-bold:hover {
+    background-color: grey !important;
+}
+
+/* .right {
+    display: flex;
+} */
+/* .nav-left {
     flex: 50%;
     text-align: end;
     margin-right: 25px;
@@ -82,10 +95,10 @@ section {
     flex: 30%;
 }
 
-.right {
+ .right {
     flex: 70%;
     margin-left: 50px;
-}
+} 
 
 .skill {
     display: flex;
@@ -192,4 +205,4 @@ section {
 }
 .testimonialData {
     width: 10px;
-}
+} 

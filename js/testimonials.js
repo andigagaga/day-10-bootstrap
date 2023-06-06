@@ -174,7 +174,7 @@
 
 //   document.getElementById("testimonials").innerHTML = testimonialHTML;
 // }
-                //  AJAX.JAVASCRIPT
+                
 
 const promise = new Promise (function(resolve, reject) {
   const xhr = new XMLHttpRequest();
